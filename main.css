@@ -2,8 +2,8 @@
   font-family: "Fira Sans";
   src:
     /* local("Fira Sans"), */
-    url("FiraSans-Regular.woff2") format("woff2"),
-    url("FiraSans-Regular.ttf") format("truetype");
+    url("static/FiraSans-Regular.woff2") format("woff2"),
+    url("static/FiraSans-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
@@ -12,8 +12,8 @@
   font-family: "Fira Sans";
   src:
     /* local("Fira Sans Bold"), */
-    url("FiraSans-Bold.woff2") format("woff2"),
-    url("FiraSans-Bold.ttf") format("truetype");
+    url("static/FiraSans-Bold.woff2") format("woff2"),
+    url("static/FiraSans-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
