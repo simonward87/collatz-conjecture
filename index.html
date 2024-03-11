@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+
+    <title>Collatz Conjecture Calculator</title>
+
+    <link href="main.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link href="site.webmanifest" rel="manifest">
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Collatz Conjecture</h1>
+
+      <form>
+        <div class="container">
+          <input class="text-input" size="2" type="number">
+
+          <button type="submit">Submit</button>
+        </div>
+        <div>
+          <label for="leading">Show leading numbers?</label>
+          <input type="checkbox" id="leading" name="leading" checked>
+        </div>
+      </form>
+
+      <table class="hidden">
+        <thead>
+          <tr id="head-row">
+            <th>Initial number</th>
+            <th>Required steps to reach 1</th>
+            <th>Highest number reached</th>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+    </main>
+  </body>
+</html>
