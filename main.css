@@ -21,8 +21,11 @@
 :root {
   --clr-fg-0: #161616;
   --clr-fg-1: #323232;
+  --clr-fgt: #00000022;
+
   --clr-bg-0: #ffffff;
   --clr-bg-1: #eaeaea;
+
 
   --spc-0: 5px;
   --spc-1: calc(var(--spc-0) * 2);
@@ -82,13 +85,14 @@ th {
 }
 
 tr {
-  border-bottom: 1px solid var(--clr-bg-1);
+  /* border-bottom: 1px solid var(--clr-bg-1); */
+  border-bottom: 1px solid var(--clr-fgt);
   display: grid;
   font-variant-numeric: tabular-nums lining-nums;
   gap: var(--spc-2);
   grid-template-columns: 1fr 1fr 1fr;
   line-height: 1;
-  text-align: right;
+  /* text-align: right; */
 }
 
 tr:last-of-type {
@@ -182,6 +186,8 @@ input[type="number"] {
   :root {
     --clr-fg-0: #eaeaea;
     --clr-fg-1: #c2c2c2;
+    --clr-fgt: #ffffff22;
+
     --clr-bg-0: #1e1e1e;
     --clr-bg-1: #282828;
   }
