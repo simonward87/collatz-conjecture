@@ -64,7 +64,7 @@ function renderResults(results) {
   }
 }
 
-/** Gets and parses input number from form input. */
+/** Get and parse number from form input. */
 function getInputNumber() {
   const inputRef = document.querySelector(".text-input");
   const input = parseInt(inputRef.value);
@@ -75,7 +75,7 @@ function getInputNumber() {
 }
 
 /**
- * Validate input numbers.
+ * Validate input number.
  * @param {number} input - Target number provided by user.
  */
 function validate(input) {
