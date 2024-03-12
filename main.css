@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Fira Sans";
   src:
-    /* local("Fira Sans"), */
+    local("Fira Sans"),
     url("static/FiraSans-Regular.woff2") format("woff2"),
     url("static/FiraSans-Regular.ttf") format("truetype");
   font-style: normal;
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Fira Sans";
   src:
-    /* local("Fira Sans Bold"), */
+    local("Fira Sans Bold"),
     url("static/FiraSans-Bold.woff2") format("woff2"),
     url("static/FiraSans-Bold.ttf") format("truetype");
   font-style: normal;
@@ -21,7 +21,7 @@
 :root {
   --clr-fg-0: #161616;
   --clr-fg-1: #323232;
-  --clr-fgt: #00000022;
+  --clr-fgt: #0000001e;
 
   --clr-bg-0: #ffffff;
   --clr-bg-1: #eaeaea;
@@ -85,14 +85,12 @@ th {
 }
 
 tr {
-  /* border-bottom: 1px solid var(--clr-bg-1); */
   border-bottom: 1px solid var(--clr-fgt);
   display: grid;
   font-variant-numeric: tabular-nums lining-nums;
   gap: var(--spc-2);
   grid-template-columns: 1fr 1fr 1fr;
   line-height: 1;
-  /* text-align: right; */
 }
 
 tr:last-of-type {
@@ -186,7 +184,7 @@ input[type="number"] {
   :root {
     --clr-fg-0: #eaeaea;
     --clr-fg-1: #c2c2c2;
-    --clr-fgt: #ffffff22;
+    --clr-fgt: #ffffff1e;
 
     --clr-bg-0: #1e1e1e;
     --clr-bg-1: #282828;
